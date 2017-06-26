@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BankApi.model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BankApi.model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="UplatnicaModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cena" type="xs:int" />
+      <xs:element minOccurs="0" name="Checkbox" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DatumValute" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DuznikNalogodavac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MestoDatumPrijema" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Model" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Model2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PoverilacPrimalac" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PozivNaBrojZaduzenja" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RacunDuznikaNalogodavca" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RacunNaBrojOdobrenje" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecunPoveriocaPrimaoca" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SifraPlacanja" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SvrhaPlacanja" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UplatnicaModel" nillable="true" type="tns:UplatnicaModel" />
+  <xs:complexType name="ArrayOfUplatnicaModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UplatnicaModel" nillable="true" type="tns:UplatnicaModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUplatnicaModel" nillable="true" type="tns:ArrayOfUplatnicaModel" />
+</xs:schema>

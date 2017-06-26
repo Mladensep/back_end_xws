@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="39e2024d-3616-4745-b8ff-7fdf13e5f07b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60551/ServiceBank.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceBank.xsd" MetadataType="Schema" ID="213d80b1-2732-4f16-9776-d5a27341a9be" SourceId="1" SourceUrl="http://localhost:60551/ServiceBank.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceBank.wsdl" MetadataType="Wsdl" ID="5db2b4f4-1ff2-4882-a420-40c4493c45fb" SourceId="1" SourceUrl="http://localhost:60551/ServiceBank.svc?wsdl" />
+    <MetadataFile FileName="ServiceBank.disco" MetadataType="Disco" ID="425a3229-ae00-4b71-978a-ef23f03d676d" SourceId="1" SourceUrl="http://localhost:60551/ServiceBank.svc?disco" />
+    <MetadataFile FileName="ServiceBank1.xsd" MetadataType="Schema" ID="ae873120-a6a4-420c-8083-19d320c1818e" SourceId="1" SourceUrl="http://localhost:60551/ServiceBank.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceBank2.xsd" MetadataType="Schema" ID="e6f45a8c-f4a3-4be9-a7d0-4b61d29f19f4" SourceId="1" SourceUrl="http://localhost:60551/ServiceBank.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
